@@ -1,0 +1,1409 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1052; Version 2009; 64bit' Language: 'en' Physical Memory: 16304 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Projects/GithubProjects/ZRush/ZRush
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51807
+Successfully changed project path to: C:/Projects/GithubProjects/ZRush/ZRush
+C:/Projects/GithubProjects/ZRush/ZRush
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 100.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Projects/GithubProjects/ZRush/ZRush/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   27.21.14.6627
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002591 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 96.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.208 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006472 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 101.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.279 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.9 MB.
+System memory in use after: 128.1 MB.
+
+Unloading 55 unused Assets to reduce memory usage. Loaded Objects now: 3240.
+Total: 4.593800 ms (FindLiveObjects: 0.391300 ms CreateObjectMapping: 0.109700 ms MarkObjects: 2.386000 ms  DeleteObjects: 1.705100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Cooling_Tower_02.fbx
+  artifactKey: Guid(d9e34ab6c59995f4aa6c1ea55be4982d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Cooling_Tower_02.fbx using Guid(d9e34ab6c59995f4aa6c1ea55be4982d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ffbeba0ebd364a834f85aa57a211485') in 0.489768 seconds 
+  Import took 0.494824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000390 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Curved_End_Concrete_01.fbx
+  artifactKey: Guid(049a354bd04529f4d8f56b2b078ca260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Curved_End_Concrete_01.fbx using Guid(049a354bd04529f4d8f56b2b078ca260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e29a2186fe439d804573689ad7c6863') in 0.015811 seconds 
+  Import took 0.020089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Container_x2_02.fbx
+  artifactKey: Guid(fb418ebe3774492478d96485c15e5f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Container_x2_02.fbx using Guid(fb418ebe3774492478d96485c15e5f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01eff25773a95a72a29bc48bdaf439e8') in 0.014566 seconds 
+  Import took 0.018639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Ceiling_Wood_01.fbx
+  artifactKey: Guid(4387e7722a44de746b252a87dcc16cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Ceiling_Wood_01.fbx using Guid(4387e7722a44de746b252a87dcc16cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bacc83ad4e266416c1cb06cb1b48c3ef') in 0.012984 seconds 
+  Import took 0.017028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Ceiling_Concrete_01.fbx
+  artifactKey: Guid(7a453f81f1e565543ba41a1e6cca0721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Ceiling_Concrete_01.fbx using Guid(7a453f81f1e565543ba41a1e6cca0721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9cef0c2e1cd6920b998b31a435d4d39') in 0.014583 seconds 
+  Import took 0.018687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Beam_End_Curved_Concrete_01.fbx
+  artifactKey: Guid(f91c0a13cbf943a4fbcd35d591d06334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Beam_End_Curved_Concrete_01.fbx using Guid(f91c0a13cbf943a4fbcd35d591d06334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed2fcb71ff67afb07bfba66a59925a9') in 0.014231 seconds 
+  Import took 0.019152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Ladder_End_01.fbx
+  artifactKey: Guid(aa7fa223aa576b647b3e87ccd3577fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Ladder_End_01.fbx using Guid(aa7fa223aa576b647b3e87ccd3577fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36669c66b1d2ea21a5ad9ccf3cb456f9') in 0.016750 seconds 
+  Import took 0.021877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Crane_01.fbx
+  artifactKey: Guid(02b3de0283968264ab4bf88e5363e131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Crane_01.fbx using Guid(02b3de0283968264ab4bf88e5363e131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129071adaf38c2cc1a9c855974f468d1') in 0.041378 seconds 
+  Import took 0.045970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Cooling_Tower_01.fbx
+  artifactKey: Guid(82f56ab479b46af488f9ddf1aad9a1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Cooling_Tower_01.fbx using Guid(82f56ab479b46af488f9ddf1aad9a1bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9183d7cfb6767192940e41092802177') in 0.014768 seconds 
+  Import took 0.019381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Curved_End_Concrete_Door_x2_01.fbx
+  artifactKey: Guid(141565d1205cf3f43a4421d1b9b5b4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Curved_End_Concrete_Door_x2_01.fbx using Guid(141565d1205cf3f43a4421d1b9b5b4b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e3dc125f2469d7ff8edde8e424e4a7') in 0.026113 seconds 
+  Import took 0.030557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Concrete_Open_01.fbx
+  artifactKey: Guid(f4055bd0ecee4b64bb623218afd99ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Concrete_Open_01.fbx using Guid(f4055bd0ecee4b64bb623218afd99ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ab6bd0e089ec024bfaf73b9d15c88d') in 0.013632 seconds 
+  Import took 0.018068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Slab_x2_01.fbx
+  artifactKey: Guid(77eaf1e7aebfcb245bedabd15997fbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Slab_x2_01.fbx using Guid(77eaf1e7aebfcb245bedabd15997fbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c8c9966c174e201bdadb67db219bcd') in 0.013757 seconds 
+  Import took 0.017964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_PillarBlock_01.fbx
+  artifactKey: Guid(8a64b0964e82c67449d7674ba29ad0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_PillarBlock_01.fbx using Guid(8a64b0964e82c67449d7674ba29ad0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95a2b130e2833e6ccf37bd117ebe880') in 0.017218 seconds 
+  Import took 0.022043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Church_01.fbx
+  artifactKey: Guid(3c766ad528d34ab4288de411368e1576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Church_01.fbx using Guid(3c766ad528d34ab4288de411368e1576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '090ce8bee8f546ef62a7f4d704da3915') in 0.012993 seconds 
+  Import took 0.017149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Container_x2_01.fbx
+  artifactKey: Guid(5954683456d406a44abdf55e73d7147a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Container_x2_01.fbx using Guid(5954683456d406a44abdf55e73d7147a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5690ec16b76416f2e085b6171da340') in 0.011624 seconds 
+  Import took 0.015617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Commercial_Large_01.fbx
+  artifactKey: Guid(8afe858867d97204bae64c310e330c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Commercial_Large_01.fbx using Guid(8afe858867d97204bae64c310e330c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a0bf815406d1144b77d3590f9513eb') in 0.043486 seconds 
+  Import took 0.047793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Hatch_01.fbx
+  artifactKey: Guid(673f47f7604b7fb4dacf4609c0aa4007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Hatch_01.fbx using Guid(673f47f7604b7fb4dacf4609c0aa4007) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f6035f303183053074f660bee2b204') in 0.021502 seconds 
+  Import took 0.025635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Concrete_x1_02.fbx
+  artifactKey: Guid(63b568ff2da1a9d4292db709603ffc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Concrete_x1_02.fbx using Guid(63b568ff2da1a9d4292db709603ffc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55145f363444468f533efeaa2d790ae') in 0.012380 seconds 
+  Import took 0.016594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Commercial_Small_01.fbx
+  artifactKey: Guid(2f59f144d4f59a54ba3d587db1f23d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Commercial_Small_01.fbx using Guid(2f59f144d4f59a54ba3d587db1f23d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f1b0125db319fe609301dd7081a1cb') in 0.033357 seconds 
+  Import took 0.037548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Commercial_Medium_01_Overgrowth_01.fbx
+  artifactKey: Guid(47352d48dee4a7d4d8e3cadc34a554ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Commercial_Medium_01_Overgrowth_01.fbx using Guid(47352d48dee4a7d4d8e3cadc34a554ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a523226445d9beaac21409229e2217') in 0.021259 seconds 
+  Import took 0.025261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Pallet_02.fbx
+  artifactKey: Guid(ba38b31cba5355244a01ddf584d627ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Pallet_02.fbx using Guid(ba38b31cba5355244a01ddf584d627ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77db10d9897fc42b356071b0539e95cf') in 0.011415 seconds 
+  Import took 0.015352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Ladder_End_Rust_01.fbx
+  artifactKey: Guid(ed84094ebdbeca04186d83b3d8f2137d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Ladder_End_Rust_01.fbx using Guid(ed84094ebdbeca04186d83b3d8f2137d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f323811cf4d03c9653a1e70a686b660') in 0.011830 seconds 
+  Import took 0.016032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Stone_x2_01.fbx
+  artifactKey: Guid(e9ac8f74722ba8f4facb7046c9ad3a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Stone_x2_01.fbx using Guid(e9ac8f74722ba8f4facb7046c9ad3a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82df77ae0299e1f18f380507faf15d8') in 0.012161 seconds 
+  Import took 0.016266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Curved_Concrete_01.fbx
+  artifactKey: Guid(96db0076a2a24e64592348cb6b3af4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Curved_Concrete_01.fbx using Guid(96db0076a2a24e64592348cb6b3af4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9504b8c90f6bcf39aba3339731c89a') in 0.011475 seconds 
+  Import took 0.015453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Decoration_03.fbx
+  artifactKey: Guid(7f3db7128290c024eafaa9c89e35cdcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Decoration_03.fbx using Guid(7f3db7128290c024eafaa9c89e35cdcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a51c6073abe9609a0895cf28f69f922') in 0.010942 seconds 
+  Import took 0.014878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Ceiling_Concrete_02.fbx
+  artifactKey: Guid(56fc5076e9b6f94479aec7ce70346106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Ceiling_Concrete_02.fbx using Guid(56fc5076e9b6f94479aec7ce70346106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83190e17d0ac083a2d3793e0f6364877') in 0.012729 seconds 
+  Import took 0.017083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Entrance_01.fbx
+  artifactKey: Guid(c3d56f6cf8445f54eb90a1051a76a4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Entrance_01.fbx using Guid(c3d56f6cf8445f54eb90a1051a76a4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1c3d68dc10da19a9dff846382d1469') in 0.012837 seconds 
+  Import took 0.016771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/PolygonApocalypse/Models/Characters.fbx
+  artifactKey: Guid(ffdfcb810f2918b4f8fe9f917f07bc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/Characters.fbx using Guid(ffdfcb810f2918b4f8fe9f917f07bc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb887e9bd1ff4b41c9d88ec677d9b702') in 0.301843 seconds 
+  Import took 0.306997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/PolygonApocalypse/Models
+  artifactKey: Guid(953f6a21760912845844c3f88ab1a5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models using Guid(953f6a21760912845844c3f88ab1a5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8333ff0f4b46bb0d63db13da04513b') in 0.002677 seconds 
+  Import took 0.007050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Ladder_Rust_01.fbx
+  artifactKey: Guid(6fc9b2982b6766c448458068911ae991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Ladder_Rust_01.fbx using Guid(6fc9b2982b6766c448458068911ae991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4caffc586bac09d8a70adde2d70f0977') in 0.013369 seconds 
+  Import took 0.017584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_ContainerBridge_01.fbx
+  artifactKey: Guid(ca0f0a4bea76c1946b59cf6edaaf8b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_ContainerBridge_01.fbx using Guid(ca0f0a4bea76c1946b59cf6edaaf8b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e0bafbb46edb07f283bd80871d87d3') in 0.026022 seconds 
+  Import took 0.030042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Curved_End_Concrete_x2_01.fbx
+  artifactKey: Guid(e3cee87ff0b28eb44a7b0360be8ead4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Curved_End_Concrete_x2_01.fbx using Guid(e3cee87ff0b28eb44a7b0360be8ead4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c074d0239f4f4843d4e52e45cee3e112') in 0.012122 seconds 
+  Import took 0.016231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Concrete_x2_01.fbx
+  artifactKey: Guid(8860ad1203a012648b8ba6f1cd104ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Concrete_x2_01.fbx using Guid(8860ad1203a012648b8ba6f1cd104ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8a997a5756bc3cb423692a432ccaf4') in 0.012481 seconds 
+  Import took 0.016753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Container_Door_01.fbx
+  artifactKey: Guid(0ebe483105346d444ae24b13d333e52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Container_Door_01.fbx using Guid(0ebe483105346d444ae24b13d333e52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51fe8924e58d0940425ecc133936762') in 0.024661 seconds 
+  Import took 0.029048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Container_x2_01.fbx
+  artifactKey: Guid(df316d0c5d0d8d34a97b09ad156b6760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Container_x2_01.fbx using Guid(df316d0c5d0d8d34a97b09ad156b6760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff67ff934dc50aed719d0195e87aa680') in 0.012048 seconds 
+  Import took 0.016027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Decoration_02.fbx
+  artifactKey: Guid(35fbab94fcd9ff04f9a5bb26cdde683f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Decoration_02.fbx using Guid(35fbab94fcd9ff04f9a5bb26cdde683f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ca7aa59406009853769e7ec35a0348') in 0.013240 seconds 
+  Import took 0.018055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Container_x1_01.fbx
+  artifactKey: Guid(38cf949f2186012409682d8b96de092b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Container_x1_01.fbx using Guid(38cf949f2186012409682d8b96de092b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acdae388e6bb9dddd491384990ec1d1') in 0.016020 seconds 
+  Import took 0.021446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Stairs_Double_01.fbx
+  artifactKey: Guid(f4690a32ffd21904aab71ce3b368f10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Stairs_Double_01.fbx using Guid(f4690a32ffd21904aab71ce3b368f10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e5a1e9e0a7f94c9cfd70d5f50d4ae0') in 0.023881 seconds 
+  Import took 0.028081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Beam_Concrete_01.fbx
+  artifactKey: Guid(f25ad0a95187f8c40a8c72f63ddbfe4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Beam_Concrete_01.fbx using Guid(f25ad0a95187f8c40a8c72f63ddbfe4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa72b1f734be4aff8e1b879d078e249') in 0.013333 seconds 
+  Import took 0.018606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Wood_02.fbx
+  artifactKey: Guid(81d8f51e1d4fc754c91a66e02d237abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Wood_02.fbx using Guid(81d8f51e1d4fc754c91a66e02d237abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4003d0691e18ecce96d6821c8e24b74d') in 0.012982 seconds 
+  Import took 0.017447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Decoration_01.fbx
+  artifactKey: Guid(20d5d6a57a4263c41b36d4746acef46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Decoration_01.fbx using Guid(20d5d6a57a4263c41b36d4746acef46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daebebb6c0259d69d938c8b50b5b88c8') in 0.012880 seconds 
+  Import took 0.017600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Container_x1_02.fbx
+  artifactKey: Guid(101bc0e3257abc449a11ae7d0da74adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Container_x1_02.fbx using Guid(101bc0e3257abc449a11ae7d0da74adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b176fc8dc0542cc68bb1ca68d05be6d5') in 0.011986 seconds 
+  Import took 0.015966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Hatch_Round_01.fbx
+  artifactKey: Guid(0d76af7e191916d4dbfe837528555e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Hatch_Round_01.fbx using Guid(0d76af7e191916d4dbfe837528555e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1dcc7f962c6f9e56ab85650faa96b3') in 0.011326 seconds 
+  Import took 0.015310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Slab_x1_03.fbx
+  artifactKey: Guid(bfd8a09e424fc7b4b94d7b36a9f205ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Slab_x1_03.fbx using Guid(bfd8a09e424fc7b4b94d7b36a9f205ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c1586ac38dc737968b7a9f5d78b6f9') in 0.013096 seconds 
+  Import took 0.018083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Curved_End_Metal_01.fbx
+  artifactKey: Guid(c17406e8519934845b792eae17f7ff7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Curved_End_Metal_01.fbx using Guid(c17406e8519934845b792eae17f7ff7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef10419a6cf439be390423464acc9f6') in 0.012586 seconds 
+  Import took 0.016956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wood_Floor_Raised_x2_01.fbx
+  artifactKey: Guid(644b49e598369f540a6406e249fc4c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wood_Floor_Raised_x2_01.fbx using Guid(644b49e598369f540a6406e249fc4c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2bc87187e3bad45ecf883570dc4bd7') in 0.012171 seconds 
+  Import took 0.016134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Curved_Corrugated_01.fbx
+  artifactKey: Guid(3f9e047f609718446b53f772238695cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Curved_Corrugated_01.fbx using Guid(3f9e047f609718446b53f772238695cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3f369854e584a97d27b2aaa6fc0b99') in 0.011449 seconds 
+  Import took 0.015383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Slab_x1_02.fbx
+  artifactKey: Guid(326a4635f6ba1e34aac13585da49b31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Slab_x1_02.fbx using Guid(326a4635f6ba1e34aac13585da49b31a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a080eda41e9dce021bc4700f86f16c9a') in 0.011602 seconds 
+  Import took 0.015651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Beam_Curved_Concrete_01.fbx
+  artifactKey: Guid(c00f7cda0cb4dfa4eb8f0db5fd6ebc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Beam_Curved_Concrete_01.fbx using Guid(c00f7cda0cb4dfa4eb8f0db5fd6ebc55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd440edba2c8c2291e0cc1b64ec729a6a') in 0.012213 seconds 
+  Import took 0.016540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Ceiling_Vent_01.fbx
+  artifactKey: Guid(9c2d952b613c45941a5f0f7dad49839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Ceiling_Vent_01.fbx using Guid(9c2d952b613c45941a5f0f7dad49839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6979edb0a6ddc20aed8a7989c5e1fda') in 0.012654 seconds 
+  Import took 0.017295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Cafe_01.fbx
+  artifactKey: Guid(a151a8af00857cd4b8a15d4ef6ddd7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Cafe_01.fbx using Guid(a151a8af00857cd4b8a15d4ef6ddd7c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0ce81adf6303b0c9de536f99210615d') in 0.018852 seconds 
+  Import took 0.022817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Wood_03.fbx
+  artifactKey: Guid(29be4f5342cfca04582f2fb09ebf8f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Wood_03.fbx using Guid(29be4f5342cfca04582f2fb09ebf8f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7fe13ee7034f4828943ffe161c53ee2') in 0.011345 seconds 
+  Import took 0.015557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Container_01.fbx
+  artifactKey: Guid(b5197fc3f54ba234bb8e80f814ce906f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Container_01.fbx using Guid(b5197fc3f54ba234bb8e80f814ce906f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ac1df90aedcc705a1b45a24795e0d8') in 0.012812 seconds 
+  Import took 0.017421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Wood_01.fbx
+  artifactKey: Guid(3aad1d7d1b6516540bc69e797694212f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Wood_01.fbx using Guid(3aad1d7d1b6516540bc69e797694212f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733e4d9a09f734b24e4c795581417e9a') in 0.013227 seconds 
+  Import took 0.017607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Slab_x2_02.fbx
+  artifactKey: Guid(4dbb95e318eb9f049b9eab3a4c8e8306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Slab_x2_02.fbx using Guid(4dbb95e318eb9f049b9eab3a4c8e8306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6240802236fc86789e8f895415d201f') in 0.012670 seconds 
+  Import took 0.017036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Stairs_Single_01.fbx
+  artifactKey: Guid(98c0ad2fc3eb55e44902e907b001dc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Stairs_Single_01.fbx using Guid(98c0ad2fc3eb55e44902e907b001dc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe4735d017df64a5c860555e005df3f') in 0.024353 seconds 
+  Import took 0.028476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Curved_End_Metal_x2_01.fbx
+  artifactKey: Guid(6ddc187e594d78d4487e59d712611d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Curved_End_Metal_x2_01.fbx using Guid(6ddc187e594d78d4487e59d712611d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b580c5b5eff285e3e5b5d7808ea1c5') in 0.014051 seconds 
+  Import took 0.018636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Metal_Door_x1_01.fbx
+  artifactKey: Guid(f9752d6fbc0910247a968f96e70a9794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Metal_Door_x1_01.fbx using Guid(f9752d6fbc0910247a968f96e70a9794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5791b019798acfc68c0b04eafa17c4dc') in 0.022128 seconds 
+  Import took 0.026382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Commercial_Medium_01.fbx
+  artifactKey: Guid(d1f90ed850da8ba42aa4042dacdd71cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Commercial_Medium_01.fbx using Guid(d1f90ed850da8ba42aa4042dacdd71cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f4bd2937d6ad7b28e79d30517fcf5b') in 0.033671 seconds 
+  Import took 0.037992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Concrete_Floor_01.fbx
+  artifactKey: Guid(4cd9deb50d48d2048bf80243ff91597e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Concrete_Floor_01.fbx using Guid(4cd9deb50d48d2048bf80243ff91597e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e10607b8fc958dfb23ed477a89618db6') in 0.012519 seconds 
+  Import took 0.017335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Caution_Door_01.fbx
+  artifactKey: Guid(52b453db8ee13244ca82b042746dbea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Caution_Door_01.fbx using Guid(52b453db8ee13244ca82b042746dbea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5e457c8685e0eb45324b03ede12174') in 0.018401 seconds 
+  Import took 0.022811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Ladder_01.fbx
+  artifactKey: Guid(1014b472345cb5e4bbafe4faecd884e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Ladder_01.fbx using Guid(1014b472345cb5e4bbafe4faecd884e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b34f0046fdc0a504e126d17485a9766') in 0.012252 seconds 
+  Import took 0.016338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_AutoRepair_01.fbx
+  artifactKey: Guid(6d9d40e4d0a2f4f43a91b68900f2cf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_AutoRepair_01.fbx using Guid(6d9d40e4d0a2f4f43a91b68900f2cf3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd120738c51f0e20f20207b806fb2397b') in 0.038995 seconds 
+  Import took 0.043232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Curved_End_Metal_Door_x2_01.fbx
+  artifactKey: Guid(d8699b656dc53b7469ce5050113ddca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Curved_End_Metal_Door_x2_01.fbx using Guid(d8699b656dc53b7469ce5050113ddca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8483fb013ace4a86a419a91aac62b6cf') in 0.020681 seconds 
+  Import took 0.024642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Beam_End_Curved_Wood_01.fbx
+  artifactKey: Guid(fa88fbf3478796f4b9b393c7378da3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Beam_End_Curved_Wood_01.fbx using Guid(fa88fbf3478796f4b9b393c7378da3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c0a9d5006ecb3bc31d0d1e7c4ecb68') in 0.011436 seconds 
+  Import took 0.015733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Concrete_x1_01.fbx
+  artifactKey: Guid(836286444c765b9468f1773e43d625eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Concrete_x1_01.fbx using Guid(836286444c765b9468f1773e43d625eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a080266379b1ad89038697e99a79785') in 0.012692 seconds 
+  Import took 0.016740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Concrete_x2_02.fbx
+  artifactKey: Guid(d7c010d049913f0438110179f0c0c130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Concrete_x2_02.fbx using Guid(d7c010d049913f0438110179f0c0c130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3c0556e1ae48f8c627357ef375b473') in 0.012771 seconds 
+  Import took 0.017355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Stone_01.fbx
+  artifactKey: Guid(90a22895bf92e0645952dd85030e354c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Stone_01.fbx using Guid(90a22895bf92e0645952dd85030e354c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c03c6c54bc50e78ecbc2f87e00c08e') in 0.012070 seconds 
+  Import took 0.016272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Beam_Wood_01.fbx
+  artifactKey: Guid(261c96ab992ca3c4ba2449aecac4fc7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Beam_Wood_01.fbx using Guid(261c96ab992ca3c4ba2449aecac4fc7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd39920bd490d084e1b58ef366af7ae7') in 0.011366 seconds 
+  Import took 0.015435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wood_Floor_Raised_01.fbx
+  artifactKey: Guid(5e75d35d7363ebf47af0f8002f40f0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wood_Floor_Raised_01.fbx using Guid(5e75d35d7363ebf47af0f8002f40f0a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '016344f8e777eed0cc84f2be6632abd2') in 0.011504 seconds 
+  Import took 0.015683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Concrete_Rust_Open_01.fbx
+  artifactKey: Guid(cd6e57606afce764ab4896fd02e89a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Concrete_Rust_Open_01.fbx using Guid(cd6e57606afce764ab4896fd02e89a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8a07cea2b16e91188eca21a5b78c38') in 0.012883 seconds 
+  Import took 0.017181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Slab_x1_01.fbx
+  artifactKey: Guid(ac216816840579d46bafb8e90333f86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Slab_x1_01.fbx using Guid(ac216816840579d46bafb8e90333f86c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453bb0e3e0ba6fc97136ff1d57131a10') in 0.012112 seconds 
+  Import took 0.016975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Concrete_Door_01.fbx
+  artifactKey: Guid(1eb2c8240195cbe418dc7ecf4e3a0873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Concrete_Door_01.fbx using Guid(1eb2c8240195cbe418dc7ecf4e3a0873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f08cc4bae34a94820512dd4d2478d2e') in 0.024925 seconds 
+  Import took 0.029240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Ceiling_Corrugated_01.fbx
+  artifactKey: Guid(70a1b4cfb62f78740b0d9ceb6d67e317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Ceiling_Corrugated_01.fbx using Guid(70a1b4cfb62f78740b0d9ceb6d67e317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddafee73156579cf5a36bf6eba9b35c3') in 0.012295 seconds 
+  Import took 0.016460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Slab_x1_04.fbx
+  artifactKey: Guid(7b888e703953c02459adcf32044bd42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Slab_x1_04.fbx using Guid(7b888e703953c02459adcf32044bd42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbc1e20a83fc7f3f31cb45a5b23eb70') in 0.012256 seconds 
+  Import took 0.016625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Pallet_01.fbx
+  artifactKey: Guid(198bff6d892103940aa3caaac7983564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Floor_Pallet_01.fbx using Guid(198bff6d892103940aa3caaac7983564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d364e42824afdb38852fe950379d43') in 0.011365 seconds 
+  Import took 0.015392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Beam_Curved_Wood_01.fbx
+  artifactKey: Guid(9532d25c17911a64bb523059c34b06f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Beam_Curved_Wood_01.fbx using Guid(9532d25c17911a64bb523059c34b06f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74650b4716f9b78053dac987e7696d76') in 0.011185 seconds 
+  Import took 0.015563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Apartment_01.fbx
+  artifactKey: Guid(a1044246125b40a41960e22db276fea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Apartment_01.fbx using Guid(a1044246125b40a41960e22db276fea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ca196ea18b317a4c8adb9ff936f677') in 0.018788 seconds 
+  Import took 0.022999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Metal_Door_x2_01.fbx
+  artifactKey: Guid(98e74b713ac9b2e4a8be0427cef38f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Models/SM_Bld_Bunker_Wall_Metal_Door_x2_01.fbx using Guid(98e74b713ac9b2e4a8be0427cef38f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd76828b0d713ea50a7b06adbb9a4193') in 0.021481 seconds 
+  Import took 0.026005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.941440 seconds.
+  path: Assets/PolygonApocalypse/Scenes/Demo_Building_Interior_Dressing.unity
+  artifactKey: Guid(713388c557c3dd84297afc8b4a7d8be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Scenes/Demo_Building_Interior_Dressing.unity using Guid(713388c557c3dd84297afc8b4a7d8be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338ef0a231f70934a84992b0f4666ad8') in 0.004124 seconds 
+  Import took 0.008997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.193414 seconds.
+  path: Assets/PolygonApocalypse/Materials/PolygonApocalypse_Material_01_A.mat
+  artifactKey: Guid(5bb68a94905ffc0418608fc7e572ea42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/PolygonApocalypse_Material_01_A.mat using Guid(5bb68a94905ffc0418608fc7e572ea42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254846f72b2fba81f79028ea27497cdd') in 0.161818 seconds 
+  Import took 0.167816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/PolygonApocalypse/Materials/PolygonApocalypse_Material_Vehicle_Standard_01.mat
+  artifactKey: Guid(7c26cf0bfe31c4247ad0de127e8e305f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/PolygonApocalypse_Material_Vehicle_Standard_01.mat using Guid(7c26cf0bfe31c4247ad0de127e8e305f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ae310579774fc3879b833b74520bd0') in 0.009730 seconds 
+  Import took 0.014405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/PolygonApocalypse/Materials/PolygonApocalypse_Material_02_A.mat
+  artifactKey: Guid(dfab048ce97a1b844bef2e7d0899a02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/PolygonApocalypse_Material_02_A.mat using Guid(dfab048ce97a1b844bef2e7d0899a02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d01d33ecd277617d2bae89d302363b1') in 0.028734 seconds 
+  Import took 0.034130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/PolygonApocalypse/Materials/PolygonApocalypse_Material_04_A.mat
+  artifactKey: Guid(2bf2f69a5c3f9eb45b1db58fb7f33a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/PolygonApocalypse_Material_04_A.mat using Guid(2bf2f69a5c3f9eb45b1db58fb7f33a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65075a55f8286b7acbb40ace1bc7a705') in 0.027016 seconds 
+  Import took 0.032304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/PolygonApocalypse/Materials/PolygonApocalypse_Material_02_A.mat
+  artifactKey: Guid(dfab048ce97a1b844bef2e7d0899a02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/PolygonApocalypse_Material_02_A.mat using Guid(dfab048ce97a1b844bef2e7d0899a02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d01d33ecd277617d2bae89d302363b1') in 0.024850 seconds 
+  Import took 0.030390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/PolygonApocalypse/Materials/PolygonApocalypse_Material_03_A.mat
+  artifactKey: Guid(5e8fc9c7c99b13c42a3462f542806e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/PolygonApocalypse_Material_03_A.mat using Guid(5e8fc9c7c99b13c42a3462f542806e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d46713112b430c86b3457b37ec6d14') in 0.027551 seconds 
+  Import took 0.033302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/PolygonApocalypse/Materials/PolygonApocalypse_Material_Road_Standard_01.mat
+  artifactKey: Guid(21c1e0845fe50de4bacf0970b304729c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/PolygonApocalypse_Material_Road_Standard_01.mat using Guid(21c1e0845fe50de4bacf0970b304729c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8402de88f9edb24796112516067c5475') in 0.217651 seconds 
+  Import took 0.222998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.470772 seconds.
+  path: Assets/PolygonApocalypse/Materials/Misc
+  artifactKey: Guid(a208d8440ab04fd4aa6e7d0333804ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Misc using Guid(a208d8440ab04fd4aa6e7d0333804ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5cd76b3ea306f28c42fe6424e94cdc') in 0.003084 seconds 
+  Import took 0.007709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058058 seconds.
+  path: Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Background_Bunker.mat
+  artifactKey: Guid(29788c90c0704194e8fb3c930a7f83a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Background_Bunker.mat using Guid(29788c90c0704194e8fb3c930a7f83a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0354bd8913112ca0bc032d5dd5193d8a') in 0.008118 seconds 
+  Import took 0.012438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Material_Dirty_01.mat
+  artifactKey: Guid(e53ee67879a38444fa41d9568a485e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Material_Dirty_01.mat using Guid(e53ee67879a38444fa41d9568a485e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a09f187e81ca32278406b237f0d097') in 0.037660 seconds 
+  Import took 0.042584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Material_Overgrowth_01.mat
+  artifactKey: Guid(26f067e9e8c4bbb4eb122a5fe9073531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Material_Overgrowth_01.mat using Guid(26f067e9e8c4bbb4eb122a5fe9073531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2532ac9325520dad9ac6772e5693ff4b') in 0.008601 seconds 
+  Import took 0.012857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Rubble_01.mat
+  artifactKey: Guid(9807de85c52c6af4a8fc548e1765e6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Rubble_01.mat using Guid(9807de85c52c6af4a8fc548e1765e6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a6ec21f6506a2adce1ee7e184525f4') in 0.010461 seconds 
+  Import took 0.014980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Skydome_Day.mat
+  artifactKey: Guid(0623e716898477e479ee51633ab41620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Skydome_Day.mat using Guid(0623e716898477e479ee51633ab41620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f3c2208ee714bd6992de9779449e4a') in 0.032442 seconds 
+  Import took 0.036660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Background_Mountains_01.mat
+  artifactKey: Guid(cae48a5b627bc1f44863e62ff5e40125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Background_Mountains_01.mat using Guid(cae48a5b627bc1f44863e62ff5e40125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522a9f1a2d862e332e1e0d27e459e3a5') in 0.031954 seconds 
+  Import took 0.036403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Swamp_Water.mat
+  artifactKey: Guid(d95a681695d427e47a1f637e82acd420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Swamp_Water.mat using Guid(d95a681695d427e47a1f637e82acd420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a1a87e0ec6cae1399e35715be52142') in 0.008894 seconds 
+  Import took 0.013030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Water.mat
+  artifactKey: Guid(ee711fe130d526443ac4f86b63f9e978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Water.mat using Guid(ee711fe130d526443ac4f86b63f9e978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46e2c82a4fafaec01b866c74c95ccf1') in 0.009026 seconds 
+  Import took 0.013605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Material_Glass_01.mat
+  artifactKey: Guid(a9dbb0aba97b90747a297c5086113594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Material_Glass_01.mat using Guid(a9dbb0aba97b90747a297c5086113594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '860021029bfe3def952e42e9fcf632a7') in 0.040058 seconds 
+  Import took 0.045479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Background_Mountains_03.mat
+  artifactKey: Guid(a1836274c62afa74eae8271ec157fa2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Background_Mountains_03.mat using Guid(a1836274c62afa74eae8271ec157fa2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5129e2bcfca7e91c6558c53804cae8') in 0.011091 seconds 
+  Import took 0.017478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Material_Fence_01.mat
+  artifactKey: Guid(dcf2d1e73747aee4bafc4fb3f0807f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Material_Fence_01.mat using Guid(dcf2d1e73747aee4bafc4fb3f0807f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51016b32e999ea162c7aad18c7ec74b9') in 0.013131 seconds 
+  Import took 0.018822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Material_01_A_Temp.mat
+  artifactKey: Guid(84db59bbbc7c6b9448e1322ab91e08b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Material_01_A_Temp.mat using Guid(84db59bbbc7c6b9448e1322ab91e08b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b20db7e4dc32f48687b855e2c5e3819') in 0.009596 seconds 
+  Import took 0.014403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Background_Mountains_02.mat
+  artifactKey: Guid(8e84f04f3ad7d044c99fc05756606cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Background_Mountains_02.mat using Guid(8e84f04f3ad7d044c99fc05756606cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10bf5bc2b0dbe19956e3f88bb838d359') in 0.009309 seconds 
+  Import took 0.013996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Clouds.mat
+  artifactKey: Guid(7851f998ad3adbc48884170cfa462fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Clouds.mat using Guid(7851f998ad3adbc48884170cfa462fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1004b0e22f8017ac9c9febbac48142') in 0.007778 seconds 
+  Import took 0.012003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000504 seconds.
+  path: Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Ocean.mat
+  artifactKey: Guid(da308fa8ec821e449a18115a733d5a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Ocean.mat using Guid(da308fa8ec821e449a18115a733d5a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00869796c53ad00291d419f72a2580c6') in 0.007462 seconds 
+  Import took 0.011735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Veh_Glass.mat
+  artifactKey: Guid(569d56bd8be49434a947c7238e1bf4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Veh_Glass.mat using Guid(569d56bd8be49434a947c7238e1bf4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8d9f091db1fd71f9ed77f3b33fb5f8') in 0.010046 seconds 
+  Import took 0.014356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Billboard_01.mat
+  artifactKey: Guid(0352299dc9b53254fbcf64f2f3af3985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Misc/PolygonApocalypse_Billboard_01.mat using Guid(0352299dc9b53254fbcf64f2f3af3985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72863dcb76446f9028e78ed535871d7') in 0.010007 seconds 
+  Import took 0.015045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.644604 seconds.
+  path: Assets/PolygonApocalypse/Textures/PolygonApocalypse_Texture_01_A.png
+  artifactKey: Guid(822402f846727b24890cc7d5f5430675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/PolygonApocalypse_Texture_01_A.png using Guid(822402f846727b24890cc7d5f5430675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f401d2c6489edfbcb5bc201d4c906725') in 0.028684 seconds 
+  Import took 0.034285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/PolygonApocalypse/Textures/Misc/Dirt_01.png
+  artifactKey: Guid(78ca77e891b851e42bb0307eec17e241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Misc/Dirt_01.png using Guid(78ca77e891b851e42bb0307eec17e241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da877d734f86572ba53246c7a306c810') in 0.007280 seconds 
+  Import took 0.012438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/PolygonApocalypse/Textures/PolygonApocalypse_Texture_01_A.png
+  artifactKey: Guid(822402f846727b24890cc7d5f5430675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/PolygonApocalypse_Texture_01_A.png using Guid(822402f846727b24890cc7d5f5430675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f401d2c6489edfbcb5bc201d4c906725') in 0.020445 seconds 
+  Import took 0.025975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/PolygonApocalypse/Textures/Misc/Dirt_01.png
+  artifactKey: Guid(78ca77e891b851e42bb0307eec17e241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Misc/Dirt_01.png using Guid(78ca77e891b851e42bb0307eec17e241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da877d734f86572ba53246c7a306c810') in 0.006708 seconds 
+  Import took 0.010922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.232767 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats
+  artifactKey: Guid(02c97186f5010e14283ed2679663cc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats using Guid(02c97186f5010e14283ed2679663cc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f69ea11fabfec18dd4949874c4857aa') in 0.002864 seconds 
+  Import took 0.007462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056261 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_01_A.mat
+  artifactKey: Guid(09c76973314790040b9ef284977d7e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_01_A.mat using Guid(09c76973314790040b9ef284977d7e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6b4a9235caaa1de96ec6edc7287450') in 0.021834 seconds 
+  Import took 0.027158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_04_C.mat
+  artifactKey: Guid(c1b49ebf9fa601f49839673b6066b4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_04_C.mat using Guid(c1b49ebf9fa601f49839673b6066b4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '943b4966b5188af8b092df4ada684a04') in 0.015553 seconds 
+  Import took 0.020314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_03_A.mat
+  artifactKey: Guid(80bcad2551f0c9049b69de9d01ca7463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_03_A.mat using Guid(80bcad2551f0c9049b69de9d01ca7463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c57010285a093b429b007b1a280404a') in 0.016073 seconds 
+  Import took 0.021727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_02_B.mat
+  artifactKey: Guid(e6ba70160d107854b899d32cc6f26cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_02_B.mat using Guid(e6ba70160d107854b899d32cc6f26cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1328502e21c1ca7e80702cee0b4b4475') in 0.016797 seconds 
+  Import took 0.021596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_01_B.mat
+  artifactKey: Guid(0a96fc22949f5d844a5b0bd9a89c09d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_01_B.mat using Guid(0a96fc22949f5d844a5b0bd9a89c09d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8447893c84ece050c6eefea61cac44') in 0.017113 seconds 
+  Import took 0.021888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_03_B.mat
+  artifactKey: Guid(25f690c79415e634aab1ad9b96c82d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_03_B.mat using Guid(25f690c79415e634aab1ad9b96c82d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aedd01fa4a8673a98426a75f6f77572') in 0.015955 seconds 
+  Import took 0.020675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_01_C.mat
+  artifactKey: Guid(a6041d9bc786922448e4ca3a6053ff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_01_C.mat using Guid(a6041d9bc786922448e4ca3a6053ff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '491b9d5895bafef4489a5c0617304a0f') in 0.016166 seconds 
+  Import took 0.020830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_04_B.mat
+  artifactKey: Guid(ecc4e2f2232137a44929c5ed4cf06818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_04_B.mat using Guid(ecc4e2f2232137a44929c5ed4cf06818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd83ab27cd972624f602e4c92132140f') in 0.015972 seconds 
+  Import took 0.020771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_03_C.mat
+  artifactKey: Guid(c294e1418a779b5408df160ec5940364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_03_C.mat using Guid(c294e1418a779b5408df160ec5940364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0200b11f8d4489c0a355eb570f0266') in 0.017802 seconds 
+  Import took 0.022492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_02_A.mat
+  artifactKey: Guid(532e7397a65f03c45b192469594faf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_02_A.mat using Guid(532e7397a65f03c45b192469594faf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4712adca8791e6f748888066d7c73a96') in 0.016214 seconds 
+  Import took 0.021203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_02_C.mat
+  artifactKey: Guid(cb55b56ee2c6f054c918f36b7dee35da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_02_C.mat using Guid(cb55b56ee2c6f054c918f36b7dee35da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ffc2fc2a69253daa7bf5da27c8bdd7') in 0.017009 seconds 
+  Import took 0.021495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_04_A.mat
+  artifactKey: Guid(358636c84e2fa3549926a3c00b431c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_04_A.mat using Guid(358636c84e2fa3549926a3c00b431c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf6eb86d49c4a3c2a3bafc48e1afef1') in 0.017276 seconds 
+  Import took 0.021768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.524833 seconds.
+  path: Assets/PolygonApocalypse/Materials/Alts
+  artifactKey: Guid(ac7ab31caeec86049878a693cb7ab96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Alts using Guid(ac7ab31caeec86049878a693cb7ab96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a64df3eb45e5fa583ef802f03b089f8') in 0.002784 seconds 
+  Import took 0.007374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094702 seconds.
+  path: Assets/PolygonApocalypse/Materials/Alts/PolygonApocalypse_Material_Road_01_Triplanar.mat
+  artifactKey: Guid(0258a4f857570cf47a2c58eb2421fa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Alts/PolygonApocalypse_Material_Road_01_Triplanar.mat using Guid(0258a4f857570cf47a2c58eb2421fa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3607a96cc44c1b0bef9a44f7cf1cd1') in 0.024964 seconds 
+  Import took 0.030597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/PolygonApocalypse/Materials/Alts/PolygonApocalypse_Material_Vehicle_02.mat
+  artifactKey: Guid(eaee2fff52c59be4e9716394562cde00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Alts/PolygonApocalypse_Material_Vehicle_02.mat using Guid(eaee2fff52c59be4e9716394562cde00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a871b9611fbc75003c3d56a74bb014') in 0.012656 seconds 
+  Import took 0.017164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/PolygonApocalypse/Materials/Alts/PolygonApocalypse_Material_Vehicle_03.mat
+  artifactKey: Guid(a7d5a7f754a806541a3f58d31808f715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Alts/PolygonApocalypse_Material_Vehicle_03.mat using Guid(a7d5a7f754a806541a3f58d31808f715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2c98b22a062d8ba5155f50bf8c87d1') in 0.012944 seconds 
+  Import took 0.017904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/PolygonApocalypse/Materials/Alts/PolygonApocalypse_Material_Vehicle_01.mat
+  artifactKey: Guid(1c4f1f768826506478cd7b4f02f32157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Alts/PolygonApocalypse_Material_Vehicle_01.mat using Guid(1c4f1f768826506478cd7b4f02f32157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab103787eba464dea2610437204d128e') in 0.013042 seconds 
+  Import took 0.017622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/PolygonApocalypse/Materials/Alts/PolygonApocalypse_Material_Vehicle_04.mat
+  artifactKey: Guid(1eeeed47bdfdce44cb0d46a300e99b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Alts/PolygonApocalypse_Material_Vehicle_04.mat using Guid(1eeeed47bdfdce44cb0d46a300e99b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa12406ee03efa11199a3364f09bdaec') in 0.013351 seconds 
+  Import took 0.017905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/PolygonApocalypse/Materials/Alts/PolygonApocalypse_Material_Vehicle_05.mat
+  artifactKey: Guid(a6ec8d9cb6335dc4aab8be7278122547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Alts/PolygonApocalypse_Material_Vehicle_05.mat using Guid(a6ec8d9cb6335dc4aab8be7278122547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb287cfc103b080d76cfb7632446b8b') in 0.012451 seconds 
+  Import took 0.016954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/PolygonApocalypse/Materials/Alts/PolygonApocalypse_Material_Vehicle_06.mat
+  artifactKey: Guid(0a469233735d78a44bfc0d328816260a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Alts/PolygonApocalypse_Material_Vehicle_06.mat using Guid(0a469233735d78a44bfc0d328816260a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e5f2efba9050dcdba6847c13af403ad') in 0.012927 seconds 
+  Import took 0.017624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.460963 seconds.
+  path: Assets/PolygonApocalypse/Textures/Misc/PolygonApocalyse_Road_01.png
+  artifactKey: Guid(f467cf2c4c0f7e24c98893124117b833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Misc/PolygonApocalyse_Road_01.png using Guid(f467cf2c4c0f7e24c98893124117b833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fdaa185b49aec26c5fdd225aef9ce7') in 0.021581 seconds 
+  Import took 0.026983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/PolygonApocalypse/Textures/Misc/PolygonApocalypse_Road_Normal.png
+  artifactKey: Guid(b27772baa47581f45b3ee062e679d8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Misc/PolygonApocalypse_Road_Normal.png using Guid(b27772baa47581f45b3ee062e679d8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e34510657530ad121c9f00abff5dad') in 0.012381 seconds 
+  Import took 0.016919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/PolygonApocalypse/Textures/Misc/PolygonApocalyse_Road_01.png
+  artifactKey: Guid(f467cf2c4c0f7e24c98893124117b833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Misc/PolygonApocalyse_Road_01.png using Guid(f467cf2c4c0f7e24c98893124117b833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80fdaa185b49aec26c5fdd225aef9ce7') in 0.019686 seconds 
+  Import took 0.024791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/PolygonApocalypse/Textures/Misc/PolygonApocalypse_Road_Normal.png
+  artifactKey: Guid(b27772baa47581f45b3ee062e679d8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Misc/PolygonApocalypse_Road_Normal.png using Guid(b27772baa47581f45b3ee062e679d8d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e34510657530ad121c9f00abff5dad') in 0.008584 seconds 
+  Import took 0.013497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.731622 seconds.
+  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_01_Mud.png
+  artifactKey: Guid(5bcafdb535777e948be8fb9202cb4a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_01_Mud.png using Guid(5bcafdb535777e948be8fb9202cb4a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55eda60561856f9d17921b43124deaba') in 0.009165 seconds 
+  Import took 0.014036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/PolygonApocalypse/Textures/Misc/PolygonApocalypse_Veh_Emissive_Texture_01.png
+  artifactKey: Guid(f078ac08c2bacee49a15411ba259493b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Misc/PolygonApocalypse_Veh_Emissive_Texture_01.png using Guid(f078ac08c2bacee49a15411ba259493b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353324643ed634f9aa39131f93efee61') in 0.010042 seconds 
+  Import took 0.015026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000402 seconds.
+  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_01_Mud.png
+  artifactKey: Guid(5bcafdb535777e948be8fb9202cb4a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_01_Mud.png using Guid(5bcafdb535777e948be8fb9202cb4a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55eda60561856f9d17921b43124deaba') in 0.007933 seconds 
+  Import took 0.013022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/PolygonApocalypse/Textures/Misc/PolygonApocalypse_Blood.png
+  artifactKey: Guid(ab3c9c81285cc4443b3b62ab3ba16da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Misc/PolygonApocalypse_Blood.png using Guid(ab3c9c81285cc4443b3b62ab3ba16da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aebef5abbdd593098f9c0cca1b03a60') in 0.009873 seconds 
+  Import took 0.015129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.014562 seconds.
+  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_02.png
+  artifactKey: Guid(98b44f88390fa934588bd0b48a0fb10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_02.png using Guid(98b44f88390fa934588bd0b48a0fb10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0958ba9f1e15705dd673d894781f0a1') in 0.009016 seconds 
+  Import took 0.013322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003307 seconds.
+  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_02.png
+  artifactKey: Guid(98b44f88390fa934588bd0b48a0fb10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_02.png using Guid(98b44f88390fa934588bd0b48a0fb10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0958ba9f1e15705dd673d894781f0a1') in 0.009013 seconds 
+  Import took 0.014118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.670569 seconds.
+  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_03.png
+  artifactKey: Guid(b39b1be39d120b641b14960d925abc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_03.png using Guid(b39b1be39d120b641b14960d925abc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47ee2c8f8bc5e9f2496c5ebd6069e7c') in 0.008318 seconds 
+  Import took 0.012911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005175 seconds.
+  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_03.png
+  artifactKey: Guid(b39b1be39d120b641b14960d925abc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_03.png using Guid(b39b1be39d120b641b14960d925abc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f47ee2c8f8bc5e9f2496c5ebd6069e7c') in 0.009139 seconds 
+  Import took 0.014301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.012342 seconds.
+  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_04.png
+  artifactKey: Guid(d42000df27bfdef46b1acbff956a0b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_04.png using Guid(d42000df27bfdef46b1acbff956a0b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0239df30a3737de097f03e04fc5ff33') in 0.009388 seconds 
+  Import took 0.013663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001838 seconds.
+  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_04.png
+  artifactKey: Guid(d42000df27bfdef46b1acbff956a0b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_04.png using Guid(d42000df27bfdef46b1acbff956a0b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0239df30a3737de097f03e04fc5ff33') in 0.008145 seconds 
+  Import took 0.012845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.765535 seconds.
+  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_05.png
+  artifactKey: Guid(c534b29903370914aa7dafb356bed5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_05.png using Guid(c534b29903370914aa7dafb356bed5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55342ac6e27f5cc8b71301385a50997') in 0.009004 seconds 
+  Import took 0.013359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003016 seconds.
+  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_05.png
+  artifactKey: Guid(c534b29903370914aa7dafb356bed5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_05.png using Guid(c534b29903370914aa7dafb356bed5c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55342ac6e27f5cc8b71301385a50997') in 0.008812 seconds 
+  Import took 0.013791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.303342 seconds.
+  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_06.png
+  artifactKey: Guid(280a4c667988ae241ac9f4642bb5a537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_06.png using Guid(280a4c667988ae241ac9f4642bb5a537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868aecabfff88072d0e70a05fb669ce2') in 0.008438 seconds 
+  Import took 0.012856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003278 seconds.
+  path: Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_06.png
+  artifactKey: Guid(280a4c667988ae241ac9f4642bb5a537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Veh/PolygonApocalypse_Veh_Texture_06.png using Guid(280a4c667988ae241ac9f4642bb5a537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '868aecabfff88072d0e70a05fb669ce2') in 0.010287 seconds 
+  Import took 0.016061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.345531 seconds.
+  path: Assets/PolygonApocalypse/Textures/Alts/PolygonApocalypse_Texture_01_B.png
+  artifactKey: Guid(b73c1fc40e28c8743bd474bd53f6c70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Alts/PolygonApocalypse_Texture_01_B.png using Guid(b73c1fc40e28c8743bd474bd53f6c70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ed2e3fb840b660381c27d005f87ed5') in 0.012566 seconds 
+  Import took 0.016931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/PolygonApocalypse/Textures/Misc/PolygonApocalypse_Emissive_01.png
+  artifactKey: Guid(52544eaa2c194144ab7b28fa647d781c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Textures/Misc/PolygonApocalypse_Emissive_01.png using Guid(52544eaa2c194144ab7b28fa647d781c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34db9e3e5b3c1ce8f468a61fb7d12084') in 0.009827 seconds 
+  Import took 0.014299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.102989 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_01_A.mat
+  artifactKey: Guid(09c76973314790040b9ef284977d7e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_01_A.mat using Guid(09c76973314790040b9ef284977d7e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d36bb76f485ab277d24715cd2c0e39') in 0.009507 seconds 
+  Import took 0.013701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_04_C.mat
+  artifactKey: Guid(c1b49ebf9fa601f49839673b6066b4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_04_C.mat using Guid(c1b49ebf9fa601f49839673b6066b4e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815ce7909dc6a5ee2464877905affd1e') in 0.015911 seconds 
+  Import took 0.020411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_03_A.mat
+  artifactKey: Guid(80bcad2551f0c9049b69de9d01ca7463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_03_A.mat using Guid(80bcad2551f0c9049b69de9d01ca7463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59b36d2632b9291a22a04a2ee4d7b35') in 0.009356 seconds 
+  Import took 0.013948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_02_B.mat
+  artifactKey: Guid(e6ba70160d107854b899d32cc6f26cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_02_B.mat using Guid(e6ba70160d107854b899d32cc6f26cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38091774c88013667eeaca8465432c5a') in 0.007982 seconds 
+  Import took 0.011939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_01_B.mat
+  artifactKey: Guid(0a96fc22949f5d844a5b0bd9a89c09d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_01_B.mat using Guid(0a96fc22949f5d844a5b0bd9a89c09d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e5f16a37893e60917982d3975a487a') in 0.007873 seconds 
+  Import took 0.012433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000443 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_03_B.mat
+  artifactKey: Guid(25f690c79415e634aab1ad9b96c82d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_03_B.mat using Guid(25f690c79415e634aab1ad9b96c82d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3600f97a5d8b45a925ff19a7421d5ae') in 0.008779 seconds 
+  Import took 0.014237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_01_C.mat
+  artifactKey: Guid(a6041d9bc786922448e4ca3a6053ff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_01_C.mat using Guid(a6041d9bc786922448e4ca3a6053ff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f9c2de31778c07da3c1808113fd396') in 0.008554 seconds 
+  Import took 0.013213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_04_B.mat
+  artifactKey: Guid(ecc4e2f2232137a44929c5ed4cf06818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_04_B.mat using Guid(ecc4e2f2232137a44929c5ed4cf06818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ada367253a9b197207a93bc23f35b7') in 0.008488 seconds 
+  Import took 0.013027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_03_C.mat
+  artifactKey: Guid(c294e1418a779b5408df160ec5940364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_03_C.mat using Guid(c294e1418a779b5408df160ec5940364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef84217f0b8d19daaf31314d42e85016') in 0.008090 seconds 
+  Import took 0.012725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_02_A.mat
+  artifactKey: Guid(532e7397a65f03c45b192469594faf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_02_A.mat using Guid(532e7397a65f03c45b192469594faf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe02727fe059f847da9938434beb62b') in 0.007889 seconds 
+  Import took 0.012033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_02_C.mat
+  artifactKey: Guid(cb55b56ee2c6f054c918f36b7dee35da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_02_C.mat using Guid(cb55b56ee2c6f054c918f36b7dee35da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1f2c554bc58061be2c0c0f781519e4') in 0.009078 seconds 
+  Import took 0.013577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_04_A.mat
+  artifactKey: Guid(358636c84e2fa3549926a3c00b431c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Materials/Character_Mats/PolygonApocalypse_Material_Chr_04_A.mat using Guid(358636c84e2fa3549926a3c00b431c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20521245547f5792208c5dfde1d4a29') in 0.009212 seconds 
+  Import took 0.014456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.426328 seconds.
+  path: Assets/PolygonApocalypse/Scenes/Demo_Bunker.unity
+  artifactKey: Guid(9a9343b6258d265478953ae557b53a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Scenes/Demo_Bunker.unity using Guid(9a9343b6258d265478953ae557b53a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede40026e1b738252760e69a42228420') in 0.003049 seconds 
+  Import took 0.007277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.714899 seconds.
+  path: Assets/PolygonApocalypse/Scenes/Demo_City_Standard.unity
+  artifactKey: Guid(cf7c677bbb7aac345a7c35e4f1b92a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Scenes/Demo_City_Standard.unity using Guid(cf7c677bbb7aac345a7c35e4f1b92a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0ea7d24312bac7de72aa6990508170') in 0.004080 seconds 
+  Import took 0.009256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000898 seconds.
+  path: Assets/PolygonApocalypse/Scenes/Demo_City_Standard.unity
+  artifactKey: Guid(cf7c677bbb7aac345a7c35e4f1b92a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Scenes/Demo_City_Standard.unity using Guid(cf7c677bbb7aac345a7c35e4f1b92a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0ea7d24312bac7de72aa6990508170') in 0.003105 seconds 
+  Import took 0.010164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.163889 seconds.
+  path: Assets/PolygonApocalypse/Scenes/Demo_City_Universal_RenderPipeline.unity
+  artifactKey: Guid(9ca7bdae70c06a546aa612594f2f6ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonApocalypse/Scenes/Demo_City_Universal_RenderPipeline.unity using Guid(9ca7bdae70c06a546aa612594f2f6ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5d919f2762a2d1afa65d1f8fb5abad') in 0.003481 seconds 
+  Import took 0.007868 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
