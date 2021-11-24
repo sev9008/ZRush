@@ -43,18 +43,18 @@
                     "id": "9a9d65c4-2d72-450d-895d-bd18d8fe2fff",
                     "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Press"
                 },
                 {
                     "name": "FireLMB",
-                    "type": "Value",
+                    "type": "PassThrough",
                     "id": "028c35d4-fe6e-4d7c-8af0-deb39e1f30e5",
                     "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": ""
                 },
                 {
-                    "name": "FireRMB",
+                    "name": "Aim",
                     "type": "Value",
                     "id": "33ccb65d-5c08-4e1f-8c8d-26a74c8b6498",
                     "expectedControlType": "Axis",
@@ -71,7 +71,7 @@
                 },
                 {
                     "name": "Crouch",
-                    "type": "Button",
+                    "type": "PassThrough",
                     "id": "34ad7790-df6d-4938-89cb-02c45c451777",
                     "expectedControlType": "Button",
                     "processors": "",
@@ -83,7 +83,15 @@
                     "id": "0cc1f696-8c48-4ede-a555-db9f58c9cd85",
                     "expectedControlType": "Axis",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Hold(duration=0.1,pressPoint=0.1)"
+                },
+                {
+                    "name": "UseAction",
+                    "type": "PassThrough",
+                    "id": "aab937d0-2caa-4ced-b285-205d42eeb278",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold"
                 }
             ],
             "bindings": [
@@ -171,7 +179,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "FireRMB",
+                    "action": "Aim",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -238,6 +246,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "47d4090b-a4ed-4636-aca2-29398f6bed83",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UseAction",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

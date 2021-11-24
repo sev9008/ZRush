@@ -71,9 +71,9 @@ public class InputManager : MonoBehaviour
     {
         return playerControls.Player.FireLMB.ReadValue<float>();
     }
-    public float PlayerFireRMB()
+    public float PlayerAim()
     {
-        return playerControls.Player.FireRMB.ReadValue<float>();
+        return playerControls.Player.Aim.ReadValue<float>();
     }
     public bool PlayerReload()
     {

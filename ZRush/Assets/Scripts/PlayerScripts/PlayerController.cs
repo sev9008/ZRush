@@ -1,186 +1,291 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 /// <summary>
 /// this script should be used for the movement and player controls.
 /// this does not necesarrily include everything the player can do
 /// planned functions include:
 /// 
-/// first or third person switching
+/// first or third person switching? Stretch goal maybe
+/// 
+/// *Move
+/// *Look
+/// Mousepos/UI
+/// Scrollwheel/WeaponSwitch
 /// mantle
-/// jump
+/// *jump
+/// FireLMB
+/// FireRMB
 /// slide
 /// crouch
-/// sprint (maybe jsut make player run faster when they have no weapon out)
+/// *sprint
+/// Use Action
 /// </summary>
 public class PlayerController : MonoBehaviour
 {
-    
-    //misc variables
-    private InputManager inputManager;
-    [SerializeField]
-    private float MovespeedControler;
+    [Header("Movement")]
+    [Tooltip("Move speed of the character in m/s")]
+    public float MoveSpeed = 2.0f;
+    [Tooltip("Sprint speed of the character in m/s")]
+    public float SprintSpeed = 5.335f;
+    [Tooltip("How fast the character turns to face movement direction")]
+    [Range(0.0f, 0.3f)]
+    public float RotationSmoothTime = 0.12f;
+    [Tooltip("Acceleration and deceleration")]
+    public float SpeedChangeRate = 10.0f;
 
-    //variables for moving
-    private float playerSpeed;
-    private CharacterController controller;
-    private Vector3 playerVelocity = Vector3.zero;
-    public GameObject PlayerBody;
-    [SerializeField]
-    private bool isSprinting;
+    [Header("Jump")]
+    [Tooltip("The height the player can jump")]
+    public float JumpHeight = 1.2f;
+    [Tooltip("The character uses its own gravity value. The engine default is -9.81f")]
+    public float Gravity = -15.0f;
+    [Tooltip("Time required to pass before being able to jump again. Set to 0f to instantly jump again")]
+    public float JumpTimeout = 0.50f;
+    [Tooltip("Time required to pass before entering the fall state. Useful for walking down stairs")]
+    public float FallTimeout = 0.15f;
 
-    //variables for is grounded
-    [SerializeField]
-    private bool IsGrounded;
-    public LayerMask GroundMask;
-    public Transform GroundCheck;
-    private float GroundDistance = 0.1f;
+    [Header("Player Grounded")]
+    [Tooltip("If the character is grounded or not. Not part of the CharacterController built in grounded check")]
+    public bool Grounded = true;
+    [Tooltip("Useful for rough ground")]
+    public float GroundedOffset = -0.14f;
+    [Tooltip("The radius of the grounded check. Should match the radius of the CharacterController")]
+    public float GroundedRadius = 0.28f;
+    [Tooltip("What layers the character uses as ground")]
+    public LayerMask GroundLayers;
 
-    //variables for jumping
-    [SerializeField]
-    private float JumpVel = 1.0f;
-    [SerializeField]
-    private float gravityValue = -9.81f;
-    [SerializeField]
-    private bool Jumping;
-    [SerializeField]
-    private float fallmult = 2.5f; //increase gravity pull for better feel    
-    [SerializeField]
-    private bool CanDBLJump;
-    private float jumptimer = .1f;
-    private float timercount;
+    [Header("Cinemachine")]
+    [Tooltip("The follow target set in the Cinemachine Virtual Camera that the camera will follow")]
+    public GameObject CinemachineCameraTarget;
+    [Tooltip("How far in degrees can you move the camera up")]
+    public float TopClamp = 0.0f;
+    [Tooltip("How far in degrees can you move the camera down")]
+    public float BottomClamp = 0.0f;
+    [Tooltip("Additional degress to override the camera. Useful for fine tuning camera position when locked")]
+    public float CameraAngleOverride = 0.0f;
+    [Tooltip("For locking the camera position on all axis")]
+    public bool LockCameraPosition = false;    
+    [Tooltip("For changing camera sensitivity")]
+    public float CameraSensitivity = 1f;
 
+    //cinemachine
+    private Vector2 Vec2Camlook;
+    private float _cinemachineTargetYaw;
+    private float _cinemachineTargetPitch;
 
+    // player
+    private float _speed;
+    private Vector2 Vec2Move;
+    private bool JumpBool = false;
+    private float _animationBlend;
+    private float _targetRotation = 0.0f;
+    private float _rotationVelocity;
+    private float _verticalVelocity;
+    private float _terminalVelocity = 53.0f;
+    private bool SprintBool = false;
 
-    //variables for character size
-    private float height;
+    // timeout deltatime
+    private float _jumpTimeoutDelta;
+    private float _fallTimeoutDelta;
 
-    //varialbes for onslope
-    [SerializeField]
-    private bool IsOnSlope;
-    [SerializeField]
-    private float SlopeRayLength = 1.5f;
-    [SerializeField]
-    private float SlopeForce = 50f;
+    public CharacterController _controller;
+    private GameObject _mainCamera;
 
-    //public Animator Player_AnimatorFull;
+    private const float _threshold = 0.01f;
 
-
-    /// <summary>
-    /// Get the character controller, input manager, and the main scene's camera
-    /// </summary>
-    private void Start()
+    private void Awake()
     {
-        controller = GetComponent<CharacterController>();
-        inputManager = InputManager.Instance;
-        //CameraTransform = Camera.main.transform;
-        height = controller.height;
-    }
-    void Update()
-    {
-        Jump();
-        SpeedController();
-    }
-    void FixedUpdate()
-    {
-        CheckIsGrounded();
-        Move();
-
-        //OnSlope();//executes additional gravity to cause palyer to hug slopes
-    }
-
-    /// <summary>
-    /// check fi the character is grounded.  
-    /// first run a spherecast to see if the ground is within a certain distance from teh character's feet
-    /// if this is false then use CharacterController.isgrounded
-    /// 
-    /// the reason this is done is because CharacterController.isgrounded is really inconsitent.  So I perfer to just use both to appease the unity gods
-    /// </summary>
-    private void CheckIsGrounded()
-    {
-        IsGrounded = Physics.CheckSphere(GroundCheck.position, GroundDistance, GroundMask, QueryTriggerInteraction.Ignore);
-        if (!IsGrounded)
+        // get a reference to our main camera
+        if (_mainCamera == null)
         {
-            IsGrounded = controller.isGrounded;
+            _mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
         }
     }
-    /// <summary>
-    /// This function controls the jumping of the palyer
-    /// </summary>
-    private void Jump()
+
+    private void Update()
     {
-        if (inputManager.PlayerJump())
-        {
-            if (IsGrounded)
-            {
-                playerVelocity.y = Mathf.Sqrt(JumpVel * -1f * gravityValue);//apply upwords movement only then the palyer is grounded and jump is pressed
-                IsGrounded = false;
-                Jumping = true;
-                CanDBLJump = true;
-                timercount = 0;
-                return;
-            }
-            else if (CanDBLJump)
-            {
-                playerVelocity.y = Mathf.Sqrt(JumpVel * -1f * gravityValue);//apply upwords movement only then the palyer is grounded and jump is pressed
-                Jumping = true;
-                CanDBLJump = false;
-                timercount = 0;
-                return;
-            }
-        }
-        //else if (!inputManager.PlayerJump() && Jumping)
-        if (Jumping)
-        {
-            timercount += Time.deltaTime;//wait for .1 seconds then check if it is grounded or not
-            if (IsGrounded && timercount > jumptimer)
-            {
-                Debug.Log("grounded");
-                Jumping = false;
-                CanDBLJump = false;
-            }
-        }
-
-        if (!IsGrounded)
-        {
-            playerVelocity += Vector3.up * gravityValue * (2.5f - 1) * Time.deltaTime; // increases fall gravity for better feel when not grounded
-        }
-
-        controller.Move(playerVelocity * Time.deltaTime);
+        IsGrounded();
+        PerformMovement();
+        PerformJump();
     }
 
-    /// <summary>
-    /// Controls the speed of teh character
-    /// </summary>
-    private void SpeedController()//add speed change for sprinting and sliding
+    private void LateUpdate()
     {
-        if (inputManager.PlayerSprint() != 0)
+        CameraRotation();
+    }
+
+    private void IsGrounded()
+    {
+        Vector3 spherePosition = new Vector3(transform.position.x, transform.position.y - GroundedOffset, transform.position.z);
+        Grounded = Physics.CheckSphere(spherePosition, GroundedRadius, GroundLayers, QueryTriggerInteraction.Ignore);
+    }
+
+    private void PerformMovement()
+    {
+        // set target speed based on move speed, sprint speed and if sprint is pressed
+        float targetSpeed = SprintBool ? SprintSpeed : MoveSpeed;
+
+        // a simplistic acceleration and deceleration designed to be easy to remove, replace, or iterate upon
+
+        // note: Vector2's == operator uses approximation so is not floating point error prone, and is cheaper than magnitude
+        // if there is no input, set the target speed to 0
+        if (Vec2Move == Vector2.zero) targetSpeed = 0.0f;
+
+        // a reference to the players current horizontal velocity
+        float currentHorizontalSpeed = new Vector3(_controller.velocity.x, 0.0f, _controller.velocity.z).magnitude;
+
+        float speedOffset = 0.1f;
+        float inputMagnitude = Vec2Move.magnitude;
+
+        // accelerate or decelerate to target speed
+        if (currentHorizontalSpeed < targetSpeed - speedOffset || currentHorizontalSpeed > targetSpeed + speedOffset)
         {
-            playerSpeed = MovespeedControler * 2f;
-            isSprinting = true;
+            // creates curved result rather than a linear one giving a more organic speed change
+            // note T in Lerp is clamped, so we don't need to clamp our speed
+            _speed = Mathf.Lerp(currentHorizontalSpeed, targetSpeed * inputMagnitude, Time.deltaTime * SpeedChangeRate);
+
+            // round speed to 3 decimal places
+            _speed = Mathf.Round(_speed * 1000f) / 1000f;
         }
         else
         {
-            playerSpeed = MovespeedControler;
-            isSprinting = false;
+            _speed = targetSpeed;
+        }
+        _animationBlend = Mathf.Lerp(_animationBlend, targetSpeed, Time.deltaTime * SpeedChangeRate);
+
+        // normalise input direction
+        Vector3 inputDirection = new Vector3(Vec2Move.x, 0.0f, Vec2Move.y).normalized;
+
+        // if there is a move input rotate player when the player is moving
+        _targetRotation = Mathf.Atan2(inputDirection.x, inputDirection.z) * Mathf.Rad2Deg + _mainCamera.transform.eulerAngles.y;
+        float rotation = Mathf.SmoothDampAngle(transform.eulerAngles.y, _targetRotation, ref _rotationVelocity, RotationSmoothTime);
+
+        // rotate to face input direction relative to camera position
+        transform.rotation = Quaternion.Euler(0.0f, rotation, 0.0f);
+
+        Vector3 targetDirection = Quaternion.Euler(0.0f, _targetRotation, 0.0f) * Vector3.forward;
+
+        // move the player
+        _controller.Move(targetDirection.normalized * (_speed * Time.deltaTime) + new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
+    }
+
+    private void PerformJump()
+    {
+        if (Grounded)
+        {
+            // reset the fall timeout timer
+            _fallTimeoutDelta = FallTimeout;
+
+            // stop our velocity dropping infinitely when grounded
+            if (_verticalVelocity < 0.0f)
+            {
+                _verticalVelocity = -2f;
+            }
+
+            // Jump
+            if (JumpBool && _jumpTimeoutDelta <= 0.0f)
+            {
+                Debug.Log("jump");
+                // the square root of H * -2 * G = how much velocity needed to reach desired height
+                _verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
+            }
+
+            // jump timeout
+            if (_jumpTimeoutDelta >= 0.0f)
+            {
+                _jumpTimeoutDelta -= Time.deltaTime;
+            }
+        }
+        else
+        {
+            // reset the jump timeout timer
+            _jumpTimeoutDelta = JumpTimeout;
+
+            // fall timeout
+            if (_fallTimeoutDelta >= 0.0f)
+            {
+                _fallTimeoutDelta -= Time.deltaTime;
+            }
+
+            // if we are not grounded, do not jump
+            JumpBool = false;
+        }
+
+        // apply gravity over time if under terminal (multiply by delta time twice to linearly speed up over time)
+        if (_verticalVelocity < _terminalVelocity)
+        {
+            _verticalVelocity += Gravity * Time.deltaTime;
         }
     }
 
-    /// <summary>
-    /// This function applies movement to the player
-    /// </summary>
-    private void Move()
+    private void CameraRotation()
     {
-        Vector3 movement = inputManager.GetPlayerMovement();
-        //Debug.Log(movement);
+        // if there is an input and camera position is not fixed
+        if (Vec2Camlook.sqrMagnitude >= _threshold && !LockCameraPosition)
+        {
+            _cinemachineTargetYaw += Vec2Camlook.x * Time.deltaTime * CameraSensitivity;
+            _cinemachineTargetPitch -= Vec2Camlook.y * Time.deltaTime * CameraSensitivity;
+        }
 
-        //if we set this to camera transform forward it will go slow as camera transform will sometimes point into the ground
-        Vector3 move = PlayerBody.transform.right * movement.x + PlayerBody.transform.forward * movement.y;
-        move = Vector3.ClampMagnitude(move, 1f);
+        // clamp our rotations so our values are limited 360 degrees
+        _cinemachineTargetYaw = ClampAngle(_cinemachineTargetYaw, float.MinValue, float.MaxValue);
+        _cinemachineTargetPitch = ClampAngle(_cinemachineTargetPitch, BottomClamp, TopClamp);
 
-        controller.Move(move * playerSpeed * Time.deltaTime);//used for moving
+        // Cinemachine will follow this target
+        CinemachineCameraTarget.transform.rotation = Quaternion.Euler(_cinemachineTargetPitch + CameraAngleOverride, _cinemachineTargetYaw, 0.0f);
     }
 
+    private static float ClampAngle(float lfAngle, float lfMin, float lfMax)
+    {
+        if (lfAngle < -360f) lfAngle += 360f;
+        if (lfAngle > 360f) lfAngle -= 360f;
+        return Mathf.Clamp(lfAngle, lfMin, lfMax);
+    }
+
+    public void Movement(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            Vec2Move = context.ReadValue<Vector2>();
+        }
+
+    }
+
+    public void look(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            Vec2Camlook = context.ReadValue<Vector2>();
+        }
+    }
+
+    public void Jump(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            JumpBool = true;
+        }
+        if (context.canceled)
+        {
+            JumpBool = false;
+        }
+    }    
+    
+    public void Sprint(InputAction.CallbackContext context)
+    {
+        if (context.performed)
+        {
+            SprintBool = true;
+        }
+        if (context.canceled)
+        {
+            SprintBool = false;
+        }
+    }
+
+
+    /*
     private void OnSlope()
     {
         Vector3 movement = inputManager.GetPlayerMovement();
@@ -220,5 +325,5 @@ public class PlayerController : MonoBehaviour
             controller.Move(Vector3.down * height / 2 * SlopeForce * Time.deltaTime);
         }
     }
-    
+    */
 }

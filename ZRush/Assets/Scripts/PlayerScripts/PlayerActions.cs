@@ -56,18 +56,18 @@ public class @PlayerActs : IInputActionCollection, IDisposable
                     ""id"": ""9a9d65c4-2d72-450d-895d-bd18d8fe2fff"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """"
+                    ""interactions"": ""Press""
                 },
                 {
                     ""name"": ""FireLMB"",
-                    ""type"": ""Value"",
+                    ""type"": ""PassThrough"",
                     ""id"": ""028c35d4-fe6e-4d7c-8af0-deb39e1f30e5"",
                     ""expectedControlType"": ""Axis"",
                     ""processors"": """",
                     ""interactions"": """"
                 },
                 {
-                    ""name"": ""FireRMB"",
+                    ""name"": ""Aim"",
                     ""type"": ""Value"",
                     ""id"": ""33ccb65d-5c08-4e1f-8c8d-26a74c8b6498"",
                     ""expectedControlType"": ""Axis"",
@@ -84,7 +84,7 @@ public class @PlayerActs : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": ""Crouch"",
-                    ""type"": ""Button"",
+                    ""type"": ""PassThrough"",
                     ""id"": ""34ad7790-df6d-4938-89cb-02c45c451777"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
@@ -96,7 +96,15 @@ public class @PlayerActs : IInputActionCollection, IDisposable
                     ""id"": ""0cc1f696-8c48-4ede-a555-db9f58c9cd85"",
                     ""expectedControlType"": ""Axis"",
                     ""processors"": """",
-                    ""interactions"": """"
+                    ""interactions"": ""Hold(duration=0.1,pressPoint=0.1)""
+                },
+                {
+                    ""name"": ""UseAction"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""aab937d0-2caa-4ced-b285-205d42eeb278"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": ""Hold""
                 }
             ],
             ""bindings"": [
@@ -184,7 +192,7 @@ public class @PlayerActs : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""FireRMB"",
+                    ""action"": ""Aim"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -253,6 +261,17 @@ public class @PlayerActs : IInputActionCollection, IDisposable
                     ""action"": ""Sprint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""47d4090b-a4ed-4636-aca2-29398f6bed83"",
+                    ""path"": ""<Keyboard>/f"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""UseAction"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -267,10 +286,11 @@ public class @PlayerActs : IInputActionCollection, IDisposable
         m_Player_ScrollWheelY = m_Player.FindAction("ScrollWheelY", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
         m_Player_FireLMB = m_Player.FindAction("FireLMB", throwIfNotFound: true);
-        m_Player_FireRMB = m_Player.FindAction("FireRMB", throwIfNotFound: true);
+        m_Player_Aim = m_Player.FindAction("Aim", throwIfNotFound: true);
         m_Player_Reload = m_Player.FindAction("Reload", throwIfNotFound: true);
         m_Player_Crouch = m_Player.FindAction("Crouch", throwIfNotFound: true);
         m_Player_Sprint = m_Player.FindAction("Sprint", throwIfNotFound: true);
+        m_Player_UseAction = m_Player.FindAction("UseAction", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -326,10 +346,11 @@ public class @PlayerActs : IInputActionCollection, IDisposable
     private readonly InputAction m_Player_ScrollWheelY;
     private readonly InputAction m_Player_Jump;
     private readonly InputAction m_Player_FireLMB;
-    private readonly InputAction m_Player_FireRMB;
+    private readonly InputAction m_Player_Aim;
     private readonly InputAction m_Player_Reload;
     private readonly InputAction m_Player_Crouch;
     private readonly InputAction m_Player_Sprint;
+    private readonly InputAction m_Player_UseAction;
     public struct PlayerActions
     {
         private @PlayerActs m_Wrapper;
@@ -340,10 +361,11 @@ public class @PlayerActs : IInputActionCollection, IDisposable
         public InputAction @ScrollWheelY => m_Wrapper.m_Player_ScrollWheelY;
         public InputAction @Jump => m_Wrapper.m_Player_Jump;
         public InputAction @FireLMB => m_Wrapper.m_Player_FireLMB;
-        public InputAction @FireRMB => m_Wrapper.m_Player_FireRMB;
+        public InputAction @Aim => m_Wrapper.m_Player_Aim;
         public InputAction @Reload => m_Wrapper.m_Player_Reload;
         public InputAction @Crouch => m_Wrapper.m_Player_Crouch;
         public InputAction @Sprint => m_Wrapper.m_Player_Sprint;
+        public InputAction @UseAction => m_Wrapper.m_Player_UseAction;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -371,9 +393,9 @@ public class @PlayerActs : IInputActionCollection, IDisposable
                 @FireLMB.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFireLMB;
                 @FireLMB.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFireLMB;
                 @FireLMB.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFireLMB;
-                @FireRMB.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFireRMB;
-                @FireRMB.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFireRMB;
-                @FireRMB.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnFireRMB;
+                @Aim.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnAim;
+                @Aim.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnAim;
+                @Aim.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnAim;
                 @Reload.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnReload;
                 @Reload.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnReload;
                 @Reload.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnReload;
@@ -383,6 +405,9 @@ public class @PlayerActs : IInputActionCollection, IDisposable
                 @Sprint.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSprint;
                 @Sprint.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSprint;
                 @Sprint.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnSprint;
+                @UseAction.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnUseAction;
+                @UseAction.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnUseAction;
+                @UseAction.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnUseAction;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -405,9 +430,9 @@ public class @PlayerActs : IInputActionCollection, IDisposable
                 @FireLMB.started += instance.OnFireLMB;
                 @FireLMB.performed += instance.OnFireLMB;
                 @FireLMB.canceled += instance.OnFireLMB;
-                @FireRMB.started += instance.OnFireRMB;
-                @FireRMB.performed += instance.OnFireRMB;
-                @FireRMB.canceled += instance.OnFireRMB;
+                @Aim.started += instance.OnAim;
+                @Aim.performed += instance.OnAim;
+                @Aim.canceled += instance.OnAim;
                 @Reload.started += instance.OnReload;
                 @Reload.performed += instance.OnReload;
                 @Reload.canceled += instance.OnReload;
@@ -417,6 +442,9 @@ public class @PlayerActs : IInputActionCollection, IDisposable
                 @Sprint.started += instance.OnSprint;
                 @Sprint.performed += instance.OnSprint;
                 @Sprint.canceled += instance.OnSprint;
+                @UseAction.started += instance.OnUseAction;
+                @UseAction.performed += instance.OnUseAction;
+                @UseAction.canceled += instance.OnUseAction;
             }
         }
     }
@@ -429,9 +457,10 @@ public class @PlayerActs : IInputActionCollection, IDisposable
         void OnScrollWheelY(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
         void OnFireLMB(InputAction.CallbackContext context);
-        void OnFireRMB(InputAction.CallbackContext context);
+        void OnAim(InputAction.CallbackContext context);
         void OnReload(InputAction.CallbackContext context);
         void OnCrouch(InputAction.CallbackContext context);
         void OnSprint(InputAction.CallbackContext context);
+        void OnUseAction(InputAction.CallbackContext context);
     }
 }
